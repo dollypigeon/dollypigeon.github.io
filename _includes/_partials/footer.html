@@ -1,0 +1,23 @@
+<div class="copyright" >
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
+  <span itemprop="copyrightYear">{{ current }}</span>
+  <span class="with-love">
+    <i class="fa fa-{{ site.authoricon }}"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">{{ site.author.name }}</span>
+</div>
+
+{% if site.copyright %}
+<div class="powered-by">
+  <a href="http://github.com/{{ site.author.github }}/{{ site.author.github }}.github.io/new/master/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/{{ site.author.github }}/{{ site.author.github }}.github.io/edit/master/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a class="theme-link" href="https://jekyllrb.com">Jekyll</a>
+</div>
+
+<div class="theme-info">
+  {{ __.footer.theme }} -
+  <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
+    NexT.{{ site.scheme }}
+  </a>
+</div>
+{% endif %}
