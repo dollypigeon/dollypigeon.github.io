@@ -1,15 +1,15 @@
-# ---------------------------------------------------------------
+﻿# ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
 # Site
-title: Yun's Learning Notes 
+title: Go along with ILA
 subtitle:
-description: Interested in AI technology
+description: BI Developer
 author: 
-  name: Mason(Yun) Chen 
-  email: mason.yunchen@gmail.com
+  name: Ila Li
+  email: ila.li@outlook.com
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -81,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Machine Learning, Xamarin, AI"
+keywords: "Business Intelligence, Power BI, SQL"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -107,11 +107,11 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -154,8 +154,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -216,8 +216,8 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/masonyc
-  Linkedin: https://www.linkedin.com/in/mason-yun-chen-207316109/
+  GitHub: https://github.com/ilaasalways
+  Linkedin: https://www.linkedin.com/in/ilaasalways/
 
 # Social Links Icons
 # Icon Mapping:
@@ -464,7 +464,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-136743484-1
+#google_analytics: UA-136743484-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
