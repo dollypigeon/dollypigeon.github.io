@@ -19,7 +19,7 @@ DateColor = SWITCH(TRUE(), VALUES(DimDate[Date])= DATEVALUE(STARTOFMONTH(DimDate
 
 The following graph is the result of this fomula.
 
-![FirstDayOfMonth](/assets/images/2019-07-18/FirstDateOfMonth.png)
+![FirstDateOfMonth](/assets/images/2019-07-18/FirstDateOfMonth.png)
 
 However, from the above graph, we can see that there is no start day for June. It is because the first day of June is Saturday, and we only have data for business days. Therefore, we need to think about how to find out the first business day of each month in order to display the chart in a clearer form.
 
