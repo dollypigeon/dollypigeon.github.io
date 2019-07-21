@@ -29,3 +29,26 @@ The solution I came out with is to add a column to our date dimension table firs
 FirstBusinessDateofMonth = 
 MINX ( FILTER(FILTER(DimDate,'DimDate'[Weekday] <> 1 && 'DimDate'[Weekday] <> 7), DimDate[MMYYYY] = EARLIER (DimDate[MMYYYY])), [Date])
 ```
+
+After we apply the above dax formula, we will have the new colomn adding to our table. Next, we can create a measure to assign different colors to the bars.
+
+```
+DateColor = SWITCH(TRUE(), VALUES(DimDate[Date])= DATEVALUE(VALUES(DimDate[FirstBusinessDateofMonth])), "#004753", "#f17925") 
+```
+
+After we create the measure, we can go to the format pane and select the Conditional Formatting.
+
+![ConditionalFormatting](/assets/images/2019-07-18/ConditionalFormatting.png)
+
+Then select Field Value in the Format By drop down list. 
+
+![Field](/assets/images/2019-07-18/Field.png)
+
+Following that, we select the column we just created, DateColor, from the Based On Field drop down list. 
+Then click OK.
+
+Now we should get a result as following. 
+
+![FinalBarChart](/assets/images/2019-07-18/FinalBarChart.png)
+
+From the above chart, we can see that the first business day of each month has been highlighted into a different color, which make it easier for users to read.
