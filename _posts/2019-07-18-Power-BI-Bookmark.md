@@ -12,3 +12,4 @@ Sometimes our data can have various data structures. For example, a company that
 
 The easiest way is probably creating mutiple pages and put different slicer on each page. But if you already have multiple pages for different visualizations, it will be likely to make users feel confusing. In that case, we can use Bookmark to enable filtering with different slicers seperately in one page.
 
+![Bookmark](/assets/images/2019-07-18/Bookmark.mp4)
