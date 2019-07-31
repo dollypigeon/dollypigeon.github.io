@@ -15,4 +15,6 @@ The easiest way is probably creating mutiple pages and put charts for each data 
 Here is an example of how it looks like: 
 ![Bookmark](/assets/images/2019-07-18/Bookmark.gif)
 
-From the above gif, we can see three buttons on the dashboard controlling different views. The default dashboard is showing the view by region. When I click on the View by Franchisee button, the view will be changed to the charts with franchisee as legends. 
+From the above gif, we can see three buttons on the dashboard controlling different views. The default dashboard is showing the view by region. When I click on the "View by Franchisee" button, the view will be changed to the charts with franchisee as legends. And when I click on "View by Owner" button, the view will be changed to the charts with owners as legends. 
+
+It's actually quite simple to achieve. First, we tick the 'bookmark pane' and 'selection pane' under View. 
