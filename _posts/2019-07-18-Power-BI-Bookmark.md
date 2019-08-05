@@ -17,4 +17,7 @@ Here is an example of how it looks like:
 
 From the above gif, we can see three buttons on the dashboard controlling different views. The default dashboard is showing the view by region. When I click on the "View by Franchisee" button, the view will be changed to the charts with franchisee as legends. And when I click on "View by Owner" button, the view will be changed to the charts with owners as legends. 
 
-It's actually quite simple to achieve. First, we tick the 'bookmark pane' and 'selection pane' under View. We will get something like the screeshot below. First, we select what we want to keep on the current page and what we want to hide by clicking the 'eye' button in the selection pane, then we click 'Add' button in the bookmarks pane and rename it. Then repeat those steps until we create all bookmarks we need.
+It's actually quite simple to achieve. First, we tick the 'bookmark pane' and 'selection pane' under View. We will get something like the screeshot below. 
+![SelectionPane](/assets/images/2019-07-18/SelectionPane.PNG)
+
+First, we select what we want to keep on the current page and what we want to hide by clicking the 'eye' button in the selection pane, then we click 'Add' button in the bookmarks pane and rename it. Then repeat those steps until we create all bookmarks we need.
