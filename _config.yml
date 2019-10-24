@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Go along with ILA
+title: Yige's Work Notes
 subtitle: EFFORT WILL NEVER BETRAY YOU.
 description: BI Developer
 author: 
-  name: Ila Li
-  email: ila.li@outlook.com
+  name: Yige (Kayla) Li
+  email: Kayla.yigeli@outlook.com
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -216,8 +216,8 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/ilaasalways
-  Linkedin: https://www.linkedin.com/in/ilaasalways/
+  GitHub: https://github.com/dollypigeon
+  Linkedin: https://www.linkedin.com/in/yigeli0410/
 
 # Social Links Icons
 # Icon Mapping:
